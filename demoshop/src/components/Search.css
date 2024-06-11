@@ -1,0 +1,41 @@
+.search-container {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .search-container input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px; /* Adjust padding to make room for the icon */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ecf0f1; /* Lighter blue background */
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #2c3e50; /* Dark blue icon color */
+  }
+  
+  /* Style for search results */
+  .search-results {
+    margin-top: 20px;
+  }
+  
+  .search-results .book-item {
+    border: 1px solid #d6eaf8; /* Lighter blue border */
+    background-color: #fff; /* White background */
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .search-results .book-item h3 {
+    color: #2980b9; /* Blue header text */
+  }
+  
